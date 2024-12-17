@@ -28,8 +28,6 @@ export default function Login({ navigation }) {
         "Password must be at least 6 characters long!"
       );
     } else {
-      console.log("username:", username);
-      console.log("password:", password);
       navigation.navigate("Home");
     }
   };
